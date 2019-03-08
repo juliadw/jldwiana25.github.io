@@ -1,0 +1,404 @@
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+hr.h1{
+  border: 1pt solid #00ac8f !important;
+  width: 5%;
+  margin-top: -1rem !important;
+  margin-bottom: 2rem;
+}
+/* navbar */
+.navbar-brand{
+    font-size: 2rem;
+}
+
+/* jumbotron */
+.jumbotron{
+    background-image: url('../img/ana-baru.jpg');
+    background-size: cover;
+    min-height: 540px;
+    position: relative;
+}
+.jumbotron .container{
+    margin-top: 5rem;
+    color: white;
+    position: relative;
+    z-index: 1;
+}
+.icon-jumbotron a{
+    text-decoration: none;
+}
+.icon-jumbotron .fa{
+    margin-top: 2rem;
+    margin-left: .5rem;
+    margin-right: .5rem;
+    font-size: 100%;
+    color: white;
+    border: 1px solid white;
+    width: 40px;
+    height: 40px;
+    padding: 10px 5px 5px 5px;
+    border-radius: 50%;
+    position: relative;
+    z-index: 1;
+}
+.icon-jumbotron .fa:hover{
+    color: #00ac8f;
+    border: 1px solid white;
+    background-color: white;
+}
+.jumbotron::after{
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: #13acc475;
+    position: absolute;
+    bottom: 0;
+}
+
+/* about Me */
+.about{
+  background-color: white;
+}
+h2{
+    width: 20%;
+    margin: auto;
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+}
+.about hr{
+    border: .5px solid #999;
+    margin-top: 3rem;
+}
+.about h3{
+  margin-bottom: 1rem;
+}
+.about p{
+  width: 85%;
+  line-height: 25px;
+  margin-bottom: 2rem;
+}
+.about button{
+  margin-top: 1.5rem;
+}
+.about img{
+  width: 85%;
+  margin-top: 1rem;
+  margin-left: 2rem;
+}
+
+/* Hobbies */
+.hobbies{
+    background-color: #f5f5f5;
+}
+svg{
+    margin: auto;
+    margin-top: 1rem;
+}
+path,rect,ellipse{
+    fill: #00ac8f;
+}
+.padding{
+    margin-top: 2rem;
+}
+.hobbies .card{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    box-shadow: 0 0 20px #999;
+    background-color: #fff;
+}
+h3{
+    text-align: center;
+}
+.hobbies .card:hover{
+  margin-top: 5px;
+  border-bottom: 2pt solid #00ac8f;
+  -webkit-transition-duration: 0.5s;
+  -moz-transition-duration: 0.5s;
+  -o-transition-duration: 0.5s;
+}
+
+/* Emoji */
+.fun.btn{
+  width: 100%;
+  border-radius: 0;
+}
+img.gif{
+  max-width: 50%;
+  margin-bottom: 1rem;
+}
+.emojiku img{
+    -webkit-transform:scale(1);
+    -moz-transform:scale(1);
+    -o-transform:scale(1);
+    -webkit-transition-duration: 0.5s;
+    -moz-transition-duration: 0.5s;
+    -o-transition-duration: 0.5s;
+    opacity: 1;
+    margin-top: 2rem;
+}
+.emojiku img:hover{
+  -webkit-transform: scale(1.5);
+  -moz-transform: scale(1.5);
+  -o-transform: scale(1.5);
+  opacity: 1;
+}
+
+/* Skills */
+.skills{
+  background-image: url('../img/aaaaaaaaa.jpg');
+  background-size: cover;
+}
+.skils-ku svg{
+  margin-top: 1.2rem;
+  width: 40px;
+  height: 40px;
+}
+.skils-ku path{
+  fill: white;
+}
+.skils-ku{
+  border: 3pt solid #34699a;
+  background-color: none;
+  margin-bottom: 2rem;
+  width: 180px;
+  height: 180px;
+  border-radius: 100%;
+  margin: auto;
+} 
+.border{
+  background-color: #34699a;
+  border: 2pt solid #34699a !important;
+  border-radius: 100%;
+  width: 80px;
+  height: 80px;
+  padding: 0;
+  margin: auto;
+  margin-top: 3rem;
+  --hover: #13acc463;
+}
+.skills h2{
+  color: #fff;
+}
+.skills h3{
+  color: #13abc4;
+  font-style: italic;
+  margin-top: 1rem
+}
+.skills h4{
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  color: #fff;
+}
+
+.skills p{
+  width: 75%;
+  margin: auto;
+  margin-bottom: 2rem ;
+  color: white;
+}
+.skils-ku:hover{
+  border: 3pt solid #13abc4;
+}
+.border:hover,
+.border:focus {
+  background-color: #13abc4;
+  border: 2pt solid #13abc4 !important;
+  -webkit-animation: pulse 1s;
+          animation: pulse 1s;
+  box-shadow: 0 0 2em 3em rgba(69, 175, 236, 0);
+}
+
+@-webkit-keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 var(--hover);
+  }
+  25% {
+    box-shadow: 0 0 0 1em var(--hover);
+  }
+}
+
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 var(--hover);
+  }
+  25% {
+    box-shadow: 0 0 0 1em var(--hover);
+  }
+}
+/* Carousel */
+  
+.carousel{
+  margin-top: 3rem;
+  margin-bottom: -2rem;
+}
+.display-2{
+font-weight: 400;
+color: #00ac8f;
+}
+.carousel-caption{
+position: absolute;
+top: 50%;
+transform: translateY(-50%);
+}
+.item img{
+  width: 100px;
+}
+.user-img {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center; 
+}
+
+/* experience
+.experience{
+  margin-top: 2rem;
+}
+.experience .fa{
+  margin-top: 1rem;
+  font-size: 100%;
+  color: #00ac8f;
+  border: 1px solid #00ac8f;
+  width: 40px;
+  height: 40px;
+  padding: 10px 5px 5px 5px;
+  border-radius: 50%;
+  padding-left: 10px;
+  margin-left: 2rem;
+  margin-bottom:1rem;
+}
+
+.fa-graduation-cap#dua, .fa-graduation-cap#tiga{
+  margin-top: 0 !important;
+}
+.garis-vertikal{
+  margin-top: -1rem ;
+  margin-left: 3rem;
+  color: #00ac8f !important;
+}
+.sd{
+  margin-top: 1.5rem;
+}
+.smp{
+  margin-top: 5rem;
+}
+.smk{
+  margin-top: 5.5rem;
+}
+*/
+
+/* team */
+#team_area{
+  background-image: url('../img/bg-skils.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center center;
+  min-height: 500px;
+}
+.single_team{
+  background-color: white;
+  padding: 30px;
+  margin-top: 3rem;
+  position: relative;
+  display: block;
+}
+.single_team .team-tittle{
+  font-size: 16px;
+  font-weight: 700;
+  color: #00ac8f;
+  margin-top: 25px;
+  margin-bottom: 5px;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+  
+}
+.single_team .test_designation{
+  display: block;
+  font-size: 13px;
+  margin: 0 0 10px;
+  font-weight: 400;
+}
+.single_team .pic{
+  width: 70px;
+  height: 70px;
+  position: absolute;
+  top:-34px;
+  left: 0;
+  bottom: 0;
+  margin: 0 auto;
+  right: 0;
+  z-index: 1;
+}
+.single_team .pic img{
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+}
+#team_area .owl-prev, 
+#team_area .owl-next{
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  color: #fff;
+  border-radius: 50%;
+  text-align: center;
+  background-image: linear-gradient(-45deg,rgba(88, 195, 255,.8) 0,rgba(0, 77, 230,.8) 40%,rgba(0, 59, 177,.8) 100%);
+  position: absolute;
+}
+#team_area .owl-prev{
+  left: -60px;
+}
+#team_area .owl-next{
+  right: -60px;
+}
+
+
+
+/* contact */
+.contact{
+  background-color:  #f5f5f5;
+}
+hr{
+  border: 1pt solid #00ac8f;
+}
+
+/* footer */
+footer{
+  background-color: #444;
+}
+.footer p{
+  margin-top: 1.5rem;
+  color: white;
+}
+.icon-footer{
+  float: right;
+}
+.icon-footer .fa{
+  margin-top: 1rem;
+  margin-left: .5rem;
+  margin-right: .5rem;
+  margin-bottom: 1rem;
+  float: left;
+  font-size: 100%;
+  color: white;
+  border: 1px solid white;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  padding : 10px 0 0 12px;
+
+}
+.icon-footer .fa:hover{
+  color: #00ac8f;
+  border: 1px solid white;
+  background-color: white;
+}
+.icon-footer a{
+  text-decoration: none;
+}
+
+
