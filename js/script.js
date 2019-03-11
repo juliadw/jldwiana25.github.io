@@ -1,32 +1,26 @@
 
-// // carousel
-// $('.owl-carousel').owlCarousel({
-//     loop:true,
-//     margin:10,
-//     responsiveClass:true,
-//     responsive:{
-//         0:{
-//             items:1,
-//             nav:true
-//         },
-//         600:{
-//             items:2,
-//             nav:false
-//         },
-//         1000:{
-//             items:3,
-//             nav:true,
-//             loop:false
-//         }
-//     }
-// })
+
+// paralax scroll
+
+$(document).ready(function(){
+    $('.page-scroll').click(function(e){
+        
+        var linkHref = $(this).attr('href');
+
+        $('html, body').animate({
+            scrollTop: $(linkHref).offset().top - 50
+        }, 1000,'easeInOutQuad');
+
+        e.preventDefault();
+    });
+});
 
 (function($) {
     'use strict';
 	
 	jQuery(document).ready(function(){
 
-/* START TESTIMONIAL JS */
+/* START team */
 $(".team_slider_area").owlCarousel({
     autoPlay: true,
     slideSpeed:1000,
@@ -55,3 +49,4 @@ $(".team_slider_area").owlCarousel({
 });	
 new WOW().init();
 })(jQuery);
+
